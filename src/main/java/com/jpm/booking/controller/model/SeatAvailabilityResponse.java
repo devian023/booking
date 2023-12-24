@@ -13,4 +13,7 @@ public class SeatAvailabilityResponse {
         return seatNumbers;
     }
 
+    public void setSeatNumbers(List<String> seatNumbers) {
+        this.seatNumbers = seatNumbers;
+    }
 }
